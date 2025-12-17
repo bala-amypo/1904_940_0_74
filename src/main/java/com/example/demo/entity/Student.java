@@ -8,7 +8,7 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     
-    private long int id;
+    private Long int id;
     private String name;
     private String email;
     
