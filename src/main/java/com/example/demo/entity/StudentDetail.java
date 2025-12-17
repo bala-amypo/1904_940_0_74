@@ -1,7 +1,7 @@
 package com.example.demo.model;
 
 public class StudentDetail {
-    private int id;
+    private Long id;
     private String name;
     private String email;
     
