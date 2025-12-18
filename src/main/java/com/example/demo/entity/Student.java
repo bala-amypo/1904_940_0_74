@@ -6,28 +6,18 @@ import jakarta.persistence.*;
 //@Table(name="Student")
 public class Student {
     @Id
-        @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
             
-                private Long id;
-                    private String name;
-                        private String email;
-                            
-                                public Student(Long id, String name, String email) {
-                                        this.id = id;
-                                                this.name = name;
-                                                        this.email = email;
-                                                            }
+    private String name;
+    private String email;
+    public Student(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
 
-                                                                public Long getId() {
-                                                                        return id;
-                                                                            }
-                                                                                public void setId() {
-                                                                                        this.id = id;
-                                                                                            }
-                                                                                                
-                                                                                                    public String getName() {
-                                                                                                            return name;
-                                                                                                                }
+    public String getName() {
+        return name;
+    }
                                                                                                                     public void setName() {
                                                                                                                             this.name = name;
                                                                                                                                 }
@@ -36,6 +26,6 @@ public class Student {
                                                                                                                                             return email;
                                                                                                                                                 }
                                                                                                                                                     public void setEmail() {
-                                                                                                                                                            this.email = email;
-                                                                                                                                                                }
-                                                                                                                                                                }
+        this.email = email;
+    }
+}
