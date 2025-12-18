@@ -20,6 +20,9 @@ public class StudentController {
         return new  ResponseEntity<>(studentService.saveStudent(student),HttpStatus.CREATED);
     }
     
+    @GetMapping("/getdata/{id}")
+    public Student getdata(@PathVariable Long id){
+
     
 
 }
