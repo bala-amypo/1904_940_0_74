@@ -21,7 +21,7 @@ public class Sservimpl implements StudentService{
         return strep.save(st);
     }
     
-    public Student saveStudent(Student st){
+    public Student getAllStudents(Student st){
         return strep.save(st);
     }
 
