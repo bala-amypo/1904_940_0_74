@@ -18,14 +18,14 @@ public class Student {
     public String getName() {
         return name;
     }
-                                                                                                                    public void setName() {
-                                                                                                                            this.name = name;
-                                                                                                                                }
+    public void setName() {
+        this.name = name;
+    }
 
-                                                                                                                                    public String getEmail() {
-                                                                                                                                            return email;
-                                                                                                                                                }
-                                                                                                                                                    public void setEmail() {
+    public String getEmail() {
+        return email;
+    }
+    public void setEmail() {
         this.email = email;
     }
 }
